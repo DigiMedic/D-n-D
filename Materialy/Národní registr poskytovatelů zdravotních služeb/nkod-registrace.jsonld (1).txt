@@ -1,0 +1,70 @@
+{
+  "@context": "https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-otevřených-dat/2024-05-28/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "_:ds",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Národní registr poskytovatelů zdravotních služeb",
+    "en": "Národní registr poskytovatelů zdravotních služeb"
+  },
+  "popis": {
+    "cs": "Datová sada umožňuje zobrazit aktuální místa poskytování zdravotní péče. Datová sada je sestavena tak, aby bylo možné zjistit nejen adresu zdravotnického zařízení, ale také obory, formy a druhy péče, které zdravotnická zařízení poskytují a též adresu sídla poskytovatele."
+  },
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [],
+  "prostorové_pokrytí": [],
+  "klíčové_slovo": {
+    "cs": [
+      "druh péče",
+      "obor péče",
+      "poskytovatel",
+      "NRPZS",
+      "místa poskytování",
+      "zdravotní péče",
+      "forma péče"
+    ],
+    "en": []
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/MONTHLY",
+  "dokumentace": "https://www.nzip.cz/clanek/1823-narodni-registr-poskytovatelu-zdravotnich-sluzeb",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/HEAL"
+  ],
+  "právní_předpis": [
+    "http://data.europa.eu/eli/dir/2019/1024/oj"
+  ],
+  "koncept_euroVoc": [
+    "http://eurovoc.europa.eu/4116"
+  ],
+  "kontaktní_bod": {
+    "typ": "Organizace",
+    "jméno": {
+      "cs": "Daniel Klimeš"
+    },
+    "e-mail": "mailto:daniel.klimes@uzis.cz"
+  },
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "název": {
+        "cs": "Místa poskytování zdravotní péče"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "cs": "Zelinková H., Jarkovský J., Klika P., Klimeš D., Komenda M., Dušek L."
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://www.nzip.cz/data/nrpzs/otevrena-data/Otevrena-data-NR-01-03-Mista-ordinacni-doba.csv",
+      "přístupové_url": "https://www.nzip.cz/data/nrpzs/otevrena-data/Otevrena-data-NR-01-03-Mista-ordinacni-doba.csv",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+      "schéma": "https://www.nzip.cz/data/nrpzs/otevrena-data/Otevrena-data-NR-01-03-Mista-ordinacni-doba.csv-metadata.json"
+    }
+  ]
+}

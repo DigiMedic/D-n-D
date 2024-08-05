@@ -1,5 +1,5 @@
 {
-  "name": "test-application",
+  "name": "doktor-na-dohled",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,8 @@
     "db:pull": "drizzle-kit introspect",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
-    "db:check": "drizzle-kit check"
+    "db:check": "drizzle-kit check",
+    "import:nrpzs": "tsx scripts/importNRPZS.ts"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.0",
@@ -21,14 +22,19 @@
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@t3-oss/env-nextjs": "^0.10.1",
+    "ai": "^3.3.0",
+    "axios": "^1.6.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "csv-parse": "^5.5.0",
     "drizzle-orm": "^0.31.2",
     "drizzle-zod": "^0.5.1",
+    "langchain": "^0.2.12",
     "lucide-react": "^0.396.0",
     "nanoid": "^5.0.7",
     "next": "14.2.4",
     "next-themes": "^0.3.0",
+    "openai": "^4.54.0",
     "postgres": "^3.4.4",
     "react": "^18",
     "react-dom": "^18",
@@ -38,6 +44,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@types/csv-parse": "^1.2.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

@@ -1,0 +1,35 @@
+user_stories:
+  - summary: Zahájení konverzace s uživatelem
+    description: Jako uživatel chci začít konverzaci s AI, abych mohl sdílet své zdravotní potřeby a obdržet pomoc a doporučení.
+    test_cases:
+      - Ověřte, zda AI začne konverzaci automaticky po přihlášení uživatele.
+      - Ověřte, zda AI dokáže reagovat na uživatelský vstup a poskytne smysluplné otázky.
+    dev_instructions: Implementujte AI chatbot, který zahájí konverzaci po vstupu uživatele.
+
+  - summary: Poskytování personalizovaných doporučení
+    description: Jako uživatel chci dostávat personalizovaná doporučení na poskytovatele zdravotnických služeb podle mých specifických potřeb.
+    test_cases:
+      - Ověřte, zda AI přizpůsobuje doporučení podle vstupních dat uživatele.
+      - Ověřte, zda AI zohledňuje lokalitu uživatele při generování seznamu poskytovatelů.
+    dev_instructions: Integrujte systém doporučení, který využívá vstupní data pro personalizaci a zohlednění lokality.
+
+  - summary: Analýza kontextu a doptávání
+    description: Jako uživatel chci, aby AI analyzovala mé potřeby a kladla doplňující otázky pro přesnější doporučení.
+    test_cases:
+      - Ověřte, zda AI analyzuje kontext zadaných dat a klade relevantní doplňující otázky.
+      - Ověřte, zda systém dokáže identifikovat nejednoznačnosti v datech a reagovat na ně.
+    dev_instructions: Implementujte analýzu vstupních dat s možností doptávání a vyvinout algoritmus pro generování doplňujících otázek.
+
+  - summary: Vyhledávání dat a poskytování odpovědí
+    description: Jako uživatel chci, aby AI vyhledávala odpovědi v databázích a poskytovala mi ověřené informace.
+    test_cases:
+      - Ověřte, zda AI úspěšně vyhledává a poskytuje přesné informace z databází.
+      - Ověřte, zda AI dokáže identifikovat nejvhodnější poskytovatele na základě vyhledávání.
+    dev_instructions: Připojte AI k databázím zdravotnických informací a implementujte vyhledávací algoritmy.
+
+  - summary: Poskytnutí kontaktních informací o poskytovatelích
+    description: Jako uživatel chci obdržet kontaktní informace o doporučených poskytovatelích zdravotní péče.
+    test_cases:
+      - Ověřte, zda AI správně poskytuje kontaktní údaje po doporučení poskytovatele.
+      - Ověřte, zda jsou kontaktní údaje aktuální a přesné.
+    dev_instructions: Zajistěte přístup AI k databázím obsahujícím kontaktní informace poskytovatelů a implementujte funkci pro snadné zobrazení a uložení kontaktních informací.
